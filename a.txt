@@ -1,0 +1,23 @@
+llm-evaluation-platform/
+├── README.md
+├── requirements.txt
+├── .env.example
+├── docker-compose.yml
+├── app.py                     # Streamlit UI
+├── src/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── evaluator.py           # LLM judge logic
+│   ├── models.py              # Pydantic models
+│   ├── leaderboard.py         # Leaderboard storage
+│   ├── api.py                 # FastAPI endpoints
+│   ├── fine_tune.py           # Fine-tuning script
+│   └── utils.py
+├── data/
+│   ├── synthetic_qa.csv       # Sample Q&A pairs
+│   └── leaderboard.json       # Leaderboard storage
+├── scripts/
+│   └── generate_samples.py    # Generate synthetic Q&A
+└── tests/
+    ├── __init__.py
+    └── test_evaluator.py
