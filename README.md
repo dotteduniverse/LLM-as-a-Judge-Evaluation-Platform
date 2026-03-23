@@ -32,6 +32,8 @@ This project demonstrates an **LLM evaluation system** where a judge LLM scores 
 
 ## Architecture
 
+![Architecture Diagram](docs/architecture.png)
+
 ```mermaid
 graph TD
     subgraph Data
