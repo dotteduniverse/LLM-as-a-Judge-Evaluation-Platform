@@ -218,3 +218,4 @@ The overall score is the average of the three.
 
 ## License
 MIT
+.
